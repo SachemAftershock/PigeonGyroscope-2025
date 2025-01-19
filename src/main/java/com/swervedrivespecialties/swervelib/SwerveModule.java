@@ -1,0 +1,14 @@
+package com.swervedrivespecialties.swervelib;
+
+public interface SwerveModule {
+
+    double getDriveVelocity();
+
+    double getPosition();
+
+    double getSteerAngle();
+
+    void set(double driveVoltage, double steerAngle);
+
+    public void setCanStatusFramePeriodReductions();    
+}
